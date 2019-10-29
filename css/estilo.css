@@ -1,0 +1,53 @@
+ /* Fonte para as tags table e h2 */  
+ table, h2{  
+   font-family: Arial;  
+   border-spacing: 1px;
+ }  
+ 
+ /* Estilização para tag h2 */  
+ h2{  
+   color: black;  
+   text-shadow: 1px darkgray;  
+ }  
+ 
+ /* Classe para o estilo do cabeçalho da Tabela */  
+ .header{  
+   background-color: #9edaf3;
+ } 
+ 
+ /* Classe coloca a cor de fundo para zebrar as linhas */  
+ .zebra{  
+   background: lightgray;  
+ } 
+ 
+ /* Classe para destacar o conteúdo da coluna */  
+ .destaque{  
+   color: black;
+   text-align: center;  
+   font-weight: bold;  
+ } 
+
+  .destaqueleft{  
+   color: black;
+   text-align: left;  
+   font-weight: bold;  
+ } 
+
+   .centralizar{  
+   color: black;
+   text-align: center;
+   font-family: Arial;   
+ } 
+
+    .esquerda{  
+   color: black;
+   text-align: justify;
+   font-family: Arial;   
+ } 
+
+ /* Classe para ajustar o header */  
+ .tbl_header{
+
+ }
+
+

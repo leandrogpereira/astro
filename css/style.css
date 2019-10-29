@@ -1,0 +1,165 @@
+html, body {
+	height: 100%;
+}
+
+.body {    
+	margin: 0;    
+	padding: 0;    
+	height: 100%;
+} 
+
+.tudo {    
+	min-height: 100%;    
+	position: relative; 
+} 
+
+.topo {    
+	padding: 10px;
+} 
+
+.conteudo {    
+	padding: 10px;    
+	padding-bottom: 60px;   /* Mesma Altura do Rodapé */ 
+} 
+
+.rodape {    
+	position: absolute;    
+	bottom: 0;    
+	width: 100%;    
+	height: 60px;   /* Mesma Altura do Rodapé */   
+	background-color: #3072AB;
+}
+
+/*
+.esquerda {
+	float: left;
+}
+.direita {
+	float: right;
+} */
+
+.altura {
+	height: 30px;   /* Mesma Altura do Rodapé */  
+}
+
+/*
+.margem {
+	margin-right: 6px;
+	margin-left: 6px;
+}*/
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+	color: #fafafa;
+}
+
+#aviso {
+	font-size: 12px;
+}
+
+textarea {
+	resize: none;
+}
+
+#div-veiculo {
+	margin-left: 40%;
+}
+
+#datatable, .table .table-hover .table-consulta {
+	font-size: small;
+}
+
+.container {
+	width: auto;
+}
+
+@media (min-width: 1200px){
+	.container {
+	    width: auto;
+	}
+}
+
+@media (min-width: 992px){
+	.container {
+	    width: auto;
+	}
+}
+
+@media (min-width: 768px){
+	.container {
+	    width: auto;
+	}
+}
+
+@media (max-width: 1081px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+#consulta, #consultar {
+	margin-top: 5px;
+}
+
+#btn_aditivo {
+	margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+  a {color: yellow;}
+}
+
+@media (max-width: 767px) {
+.navbar-nav .open .dropdown-menu {
+	background-color: #fff;
+	}
+}
+
+.col-md-2 .teste{
+	padding-top: 10px;
+}
+
+@media (max-width: 336px) {
+#img-logo {
+	margin-top: 10px;
+	width: 200px;
+	}
+}
+
+@media (max-width: 275px) {
+#img-logo {
+	margin-top: 12px;
+	width: 180px;
+	}
+}
